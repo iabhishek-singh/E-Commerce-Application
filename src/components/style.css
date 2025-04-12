@@ -1,0 +1,163 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar */
+.navigationBar {
+    height: 80px;
+    border-bottom: 2px solid grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    margin-bottom: 15px;
+
+}
+
+.navrap img {
+    width: 90px;
+    height: 60px;
+    border: 2px solid gold;
+
+}
+
+.navrap ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-weight: bold;
+
+}
+
+.navrap ul li:hover {
+    color: #f02f28;
+    /* color: gold; */
+
+}
+
+.totalItemNumber {
+    display: inline-flex;  /* allows width/height to work */
+    align-items: center;/* vertically center text */
+    justify-content: center;/* horizontally center text */
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid red;
+    background-color: #f02f28;
+    color: antiquewhite;
+    font-size: 12px;
+
+}
+
+
+/* Product details */
+.parentproductDetail {
+    padding-top: 3rem;
+
+}
+
+.productDetail {
+    max-width: 800px;
+    height: 720px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    border: 2px solid gold;
+    border-radius: 20px;
+    transition: transform 0.5s;
+    /* padding: 5px; */
+
+}
+
+.productDetail:hover {
+    transform: scale(1.1);
+}
+
+.productDetail img {
+    width: 100%;
+    padding-bottom: 5px;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.productDetail p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+/* product-card */
+.product-card {
+    /* display: flex; */
+    width: 400px;
+    height: 550px;
+    background-color: whitesmoke;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    border: 2px solid gold;
+    border-radius: 20px;
+    transition: transform 0.5s;
+
+}
+
+.product-card:hover {
+    transform: scale(1.1);
+}
+
+.productList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Search */
+.searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 35px;
+}
+
+.searchBar input {
+    padding: 8px;
+    text-align: center;
+}
+
+/* total Amount */
+.totalAmount {
+    width: 150px;
+    float: right;
+    border-bottom: 3px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* check Out Page */
+.checkOutPage {
+    border: 2px solid gold;
+    text-align: center;
+}
+
+/* Git link */
+.buttonForGitLink {
+    width: auto;
+    height: 4vh;
+    border-top: 2px solid #000;
+    margin-top: 45px;
+
+
+}
+.buttonForGitLink a:hover {
+    color: violet;
+    font-weight: bold;
+    text-decoration: underline;
+}
